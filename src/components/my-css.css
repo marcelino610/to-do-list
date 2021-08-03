@@ -1,0 +1,66 @@
+/* ALINEACIÓN */
+.centered-text {
+    text-align: center;
+}
+
+/* TAMAÑOS DE FUENTE */
+.text-60 {
+    font-size: 3.75rem;
+}
+.text-48 {
+    font-size: 3rem;
+}
+.text-36 {
+    font-size: 2.25rem;
+}
+.text-30 {
+    font-size: 1.875rem;
+}
+.text-24 {
+    font-size: 1.5rem;
+}
+.text-22 {
+    font-size: 1.375rem;
+}
+.text-18 {
+    font-size: 1.125rem;
+}
+.text-16 {
+    font-size: 1rem;
+}
+.text-14 {
+    font-size: 0.875rem;
+}
+
+/* ESTILOS DE FUENTE */
+.text-bold {
+    font-weight: 700;
+}
+.text-medium {
+    font-weight: 500;
+}
+.text-l {
+    font-weight: 300;
+}
+
+/* LETTER SPACING */
+.text-l-s-n50 {
+    letter-spacing: -50;
+}
+.text-l-s-n25 {
+    letter-spacing: -25;
+}
+.text-l-s-n10 {
+    letter-spacing: -10;
+}
+.text-l-s-0 {
+    letter-spacing: 0;
+}
+
+.visible {
+    display: block;
+}
+
+.light-text {
+    color: whitesmoke;
+}

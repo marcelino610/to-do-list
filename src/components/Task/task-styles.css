@@ -1,0 +1,66 @@
+.task-container {
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
+.task-elements {
+    grid-row: 1 / 2;
+    
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    width: 100%;
+}
+.task-elements .input {
+    display: inline; 
+    grid-column: 1 / 2;
+    text-align: center;
+    height: 20px;
+}
+.task-elements .h3 {
+    display: inline;
+    grid-column: 2 / 3;
+}
+.task-elements .img {
+    grid-column: 3 / 4;
+    cursor: pointer;
+}
+img {
+    height: 30px;
+    width: 30px;
+}
+.bg-selector-container {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+}
+.bg-selector {
+    cursor: pointer;
+    height: 100%;
+}
+
+.blank {
+    text-decoration: line-through;
+}
+
+.bg-light-blue {
+    background-color: #7ccce5;
+}
+.bg-yellow {
+    background-color: #fde47f;
+}
+.bg-red {
+    background-color: #e04644;
+}
+.bg-purple {
+    background-color: #b576ad;
+}
+.bg-green {
+    background-color: #b7d968;
+}
+
+.bottom-space {
+    margin-bottom: 5px;
+}
+
+
